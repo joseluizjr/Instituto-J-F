@@ -1,18 +1,16 @@
-# Teste Instituto J&f
+# Instituto J&f
 
-resposta para o teste do instituto J&F
+na pasta **scripts** tem 4 arquivos numerados com as respectivas questões 
 
-na pasta **src** tem dois arquivos
+3. fibonacci.js
 
-1. fibonacci.js
-
-  > neste aquivo está a solução desse desafio
+  > Solução do desafio
   > 
   > *Desenvolva uma função que recebe duas variáveis do tipo número (numInicial, qtd) utilizando essas propriedades, retorne um array com a sequência de fibonnacci que deve iniciar do número indicado na `numInicial` (incluindo o próprio número caso esse faça parte da sequência) e possuir a quantidade de números indicado na `qtd`.*
 
-2. comboProdutos.js
+4. calculadora.js
 
-  > neste aquivo está a solução desse desafio
+  > Solução do desafio
   > 
   > *Desenvolva uma função que receba dois arrays de objetos conforme abaixo:
   > Ex.: arr1 = [
