@@ -5,7 +5,7 @@ const conta = (num1, num2, operador) => {
     else if ( operador === 'multiplicacao' ) { return num1 * num2 }
     else if ( operador === 'divisao' ) { return num1 / num2 }
     else if ( operador === 'modulo' ) { return num1 % num2 }
-    else { return num1 + num2 }
+    else { return 'Tipo de inválido, os tipos permitidos são: soma, subtracao, multiplicacao, divisao e modulo.' }
 }
 
 // chama função
@@ -15,23 +15,23 @@ console.log(conta(1, 2, 'soma'))
 const contaV2 = (num1, num2, operador) => {
     switch (operador.toLowerCase()) {
         case 'soma':
-            console.log(`${operador}: ${num1 + num2}`)
+            console.log(`${num1 + num2}`)
             break;
         case 'subtracao':
-            console.log(`${operador}: ${num1 - num2}`)
+            console.log(`${num1 - num2}`)
             break;
         case 'multiplicacao':
-            console.log(`${operador}: ${num1 * num2}`)
+            console.log(`${num1 * num2}`)
             break;
         case 'divisao':
-            console.log(`${operador}: ${num1 / num2}`)
+            console.log(`${num1 / num2}`)
             break;
         case 'modulo':
-            console.log(`${operador}: ${num1 % num2}`)
+            console.log(`${num1 % num2}`)
             break;
     
         default:
-            console.log(`Tipo de cálculo não permitido`)
+            console.log('Tipo de inválido, os tipos permitidos são: soma, subtracao, multiplicacao, divisao e modulo.')
             break;
     }
 }
