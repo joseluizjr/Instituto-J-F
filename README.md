@@ -8,7 +8,7 @@ na pasta **scripts** tem 4 arquivos numerados com as respectivas questões
   > 
   > *Desenvolva uma função que recebe duas variáveis do tipo número (numInicial, qtd) utilizando essas propriedades, retorne um array com a sequência de fibonnacci que deve iniciar do número indicado na `numInicial` (incluindo o próprio número caso esse faça parte da sequência) e possuir a quantidade de números indicado na `qtd`.*
 
-4. calculadora.js
+4. produtos.js
 
   > Solução do desafio
   > 
