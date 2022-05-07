@@ -2,31 +2,26 @@
 const calculadora = (num1, num2, operador) => {
     switch (operador.toLowerCase()) {
         case 'soma':
-            return `${operador}: ${num1 + num2}`
+            console.log(`${operador}: ${num1 + num2}`)
             break;
-        case 'subtração':
-            return `${operador}: ${num1 + num2}`
+        case 'subtracao':
+            console.log(`${operador}: ${num1 + num2}`)
             break;
-        case 'multiplicação':
-            return `${operador}: ${num1 * num2}`
+        case 'multiplicacao':
+            console.log(`${operador}: ${num1 * num2}`)
             break;
-        case 'divisão':
-            return `${operador}: ${num1 / num2}`
+        case 'divisao':
+            console.log(`${operador}: ${num1 / num2}`)
             break;
-        case 'módulo':
-            return `${operador}: ${num1 + num2}`
-            break;
-        case 'incremento':
-            return `${operador}: ${num1 + num2}`
-            break;
-        case 'decremento':
-            return `${operador}: ${num1 + num2}`
+        case 'modulo':
+            console.log(`${operador}: ${num1 % num2}`)
             break;
     
         default:
-            return num1 + num2
+            console.log(`Tipo de cálculo não permitido`)
             break;
     }
 }
 
-console.log(calculadora(1, 2, 'soma'))
+// chama função
+calculadora(1, 2, 'soma')
