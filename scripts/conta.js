@@ -5,7 +5,7 @@ const conta = (num1, num2, operador) => {
     else if ( operador === 'multiplicacao' ) { return num1 * num2 }
     else if ( operador === 'divisao' ) { return num1 / num2 }
     else if ( operador === 'modulo' ) { return num1 % num2 }
-    else { return 'Tipo inválido, os tipos permitidos são: soma, subtracao, multiplicacao, divisao e modulo.' }
+    else { return 'Tipo inválido! Os tipos permitidos são: soma, subtracao, multiplicacao, divisao, modulo.' }
 }
 
 // chama função
@@ -31,7 +31,7 @@ const contaV2 = (num1, num2, operador) => {
             break;
     
         default:
-            console.log('Tipo inválido, os tipos permitidos são: soma, subtracao, multiplicacao, divisao e modulo.')
+            console.log('Tipo inválido! Os tipos permitidos são: soma, subtracao, multiplicacao, divisao, modulo.')
             break;
     }
 }
