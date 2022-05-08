@@ -7,7 +7,7 @@ const contas = (valores) => {
             else if ( valor.conta === 'multiplicacao' ) { return valor.num1 * valor.num2 }
             else if ( valor.conta === 'divisao' ) { return valor.num1 / valor.num2 }
             else if ( valor.conta === 'modulo' ) { return valor.num1 % valor.num2 }
-            else { return 'Tipo de conta não informado' }
+            else { return 'Tipo inválido! Os tipos permitidos são: soma, subtracao, multiplicacao, divisao, modulo.' }
         })
     ]
 
@@ -19,4 +19,6 @@ const numeros = [
     { num1: 1, num2: 2, conta: 'soma' },
     { num1: 3, num2: 4, conta: 'multiplicacao' }
 ]
+
+// chama função
 console.log(contas(numeros))
