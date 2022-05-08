@@ -28,6 +28,7 @@ const fibonacci = (numInicial, qtd) => {
     }
 }
 
+// chama função
 console.log(fibonacci(0, 5))
 console.log(fibonacci(5, 5))
 console.log(fibonacci(19, 3))
