@@ -35,5 +35,6 @@ const produtosCombos = (produtos, combos, combo) => {
     return valorCombo
 }
 
+// chama função
 console.log(produtosCombos(produtos, combos, 5))
 console.log(produtosCombos(produtos, combos, 2))
