@@ -31,9 +31,9 @@ na pasta **scripts** tem 4 arquivos numerados com as respectivas questões
 > Ex.: arr1 = [
 >{id: 1, item: 'pastel', valor: 7.9},
 >{id: 2, item: 'coxinha de frango', valor: 6},
->{id: 3, item: 'guaraná', valor: 4.5},
->{id: 4, item: 'caldo de cana', 12},
->{id: 5, item: 'chocolate', 3.5}
+>{id: 3, item: 'guaraná', valor: valor: 4.5},
+>{id: 4, item: 'caldo de cana', valor: 12},
+>{id: 5, item: 'chocolate', valor: 3.5}
 >]
 >
 >arr2 = [
